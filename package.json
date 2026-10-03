@@ -1,0 +1,48 @@
+{
+  "name": "shell-wrapped",
+  "version": "0.1.0",
+  "description": "Spotify Wrapped for your terminal: reads your shell history, offline, and prints what it says about you — plus a card you can share.",
+  "type": "module",
+  "bin": {
+    "shell-wrapped": "bin/shell-wrapped.js"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/run.js",
+    "wrapped": "node bin/shell-wrapped.js",
+    "demo": "node scripts/demo.js"
+  },
+  "keywords": [
+    "shell",
+    "history",
+    "wrapped",
+    "statistics",
+    "cli",
+    "zsh",
+    "bash",
+    "fish",
+    "powershell",
+    "devtools"
+  ],
+  "license": "MIT",
+  "author": "CedricPoint",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CedricPoint/shell-wrapped.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CedricPoint/shell-wrapped/issues"
+  },
+  "homepage": "https://github.com/CedricPoint/shell-wrapped#readme",
+  "engines": {
+    "node": ">=18"
+  }
+}
