@@ -1,5 +1,7 @@
 # shell-wrapped
 
+**English** · [Français](README.fr.md)
+
 **Spotify Wrapped, for your terminal.** It reads your shell history — the one
 already on your disk — and tells you what you actually spent the year typing.
 Then it hands you a card you can post.
