@@ -7,6 +7,12 @@
  * point of the tool.
  */
 
+// The clock in the report is the machine's own, which is right for a person
+// and wrong for a committed file: the same history produces a different card
+// in Paris and on a CI runner. The demo is pinned so the images in docs/ can
+// be checked against the code.
+process.env.TZ = 'UTC';
+
 import { writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';

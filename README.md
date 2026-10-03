@@ -32,15 +32,16 @@ npx github:CedricPoint/shell-wrapped
   push 181  ·  checkout 171  ·  log 166  ·  stash 165  ·  status 157
 
   when you work
-  ▃▃▃▃▃▂▂▁▁▁▃▇▇█▇█▇▇▇█▅▁▁▂
+  ▃▃▃▃▃▁▁▁▁▇▇█▇██▇▇██▁▁▁▃▃
   0h                       12h                      23h
-  busiest at 13:00  ·  Thursday is your day  ·  14% after 22:00
+  busiest at 11:00  ·  Thursday is your day  ·  17% after 22:00
   your biggest day was 2026-02-12, with 19 commands
 
   habits
       49  asked nicely with sudo
       20  recursive deletions
        4  force pushes
+      19  fresh starts (clear)
       38  steps backwards (cd ..)
        1  times you typed :q at a shell
 
